@@ -4,11 +4,11 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: #f0f0f0;
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #282828;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -128,7 +128,7 @@ p {
 }
 
 .project-card {
-    width: 300px;
+    width: 350px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
@@ -136,7 +136,7 @@ p {
 
 .project-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -148,8 +148,9 @@ p {
 
 .project-image {
     margin-top: 25px;
-    width: 250px;
-    border-radius: 125px;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
 }
 
 hr {
@@ -158,8 +159,13 @@ hr {
 }
 
 .project-link {
+    margin: 0 20px;
     text-decoration: none;
     color: #ef744b;
+}
+
+.project-link:hover {
+    text-decoration: underline; /* Optional: Underlines the link on hover for better UX */
 }
 
 a {
